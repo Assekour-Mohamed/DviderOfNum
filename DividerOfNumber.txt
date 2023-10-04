@@ -1,0 +1,14 @@
+Algorithme DividersOfNubmber
+variables
+  n,i:entier
+debut 
+  ecrire("entree Numb")
+  lire(n)
+  s<-0
+  i<-0
+  tant que i<=n faire
+    si( n mod i == 0)
+       ecrire(i)
+    i=i+1
+  fin tantque
+fin
